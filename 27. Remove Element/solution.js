@@ -1,9 +1,10 @@
-/**
+**
  * @param {number[]} nums
  * @param {number} val
  * @return {number}
  */
-var removeElement = function (nums, val) {
+// new code 10.0.0.197:808
+	var removeElement = function (nums, val) {
     if (nums.length == 0)
         return 0
     let firstPoint = 0;
@@ -13,4 +14,5 @@ var removeElement = function (nums, val) {
 
 
     return firstPoint;
-};
+:w
+	};

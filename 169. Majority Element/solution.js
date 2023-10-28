@@ -1,7 +1,4 @@
-/**
- * @param {number[]} nums
- * @return {number}
- */
+
 var majorityElement = function (nums) {
     let empty = [];
     nums.sort((a, b) => a - b);
